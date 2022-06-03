@@ -1,6 +1,6 @@
 // Import stylesheets
 import './style.css';
-
+import sample from './sample';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
@@ -12,7 +12,8 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
   // They are used where js need single line of code
 }
 // eg :
-
+sample;
+console.log(sample);
 if (true) console.log('1, Working');
 // this allow single line after if() condition
 
@@ -39,7 +40,6 @@ if (true) console.log('1, Working');
 // eg :
 
 // like this
-
 
 //  doubt !!!!!!!!!!!
 
